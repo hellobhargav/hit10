@@ -1,0 +1,75 @@
+.courses figure {
+    box-shadow: 1px 1px 10px 5px rgb(212, 211, 211);
+    background-color: white;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+figure:hover {
+    box-shadow: 1px 1px 10px 5px rgb(115, 113, 113);
+}
+
+figcaption {
+    text-align: center;
+    padding: 20px;
+}
+
+.courses {
+    background-color: rgb(224, 237, 241);
+    padding: 50px 100px;
+}
+
+figure img {
+    transition-duration: 1s;
+}
+
+figure img:hover {
+    transform: scaleX(1.1);
+}
+
+.nav-link{
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+    margin: 0 10px 10px 0;
+    padding: 10px 50px !important;
+    text-align: center;
+}
+.nav-link:hover{
+    background-color: green;
+    color: white;
+}
+header{
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+.card img{
+    width: 100%;
+}
+.card{
+    box-shadow: 1px 1px 10px 5px rgb(207, 206, 206);
+    margin-bottom: 30px;
+    text-align: center;
+    transition-duration: 1s;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px 5px grey;
+  
+}
+
+.batches  a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 8px 15px;
+}
+.batches td:last-child{
+    text-align: center;
+}
+.slide{
+    overflow: hidden !important;
+}
+.ws_effect + div{
+    display: none !important;
+}
